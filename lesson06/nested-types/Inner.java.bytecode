@@ -1,0 +1,28 @@
+Compiled from "App.java"
+class pt.isel.nestedTypes.Outer$Inner {
+  int x;
+
+  final pt.isel.nestedTypes.Outer this$0;
+
+  public pt.isel.nestedTypes.Outer$Inner(pt.isel.nestedTypes.Outer, int);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #1                  // Field this$0:Lpt/isel/nestedTypes/Outer;
+       5: aload_0
+       6: invokespecial #7                  // Method java/lang/Object."<init>":()V
+       9: aload_0
+      10: iload_2
+      11: putfield      #13                 // Field x:I
+      14: return
+
+  void m1();
+    Code:
+       0: bipush        11
+       2: putstatic     #17                 // Field pt/isel/nestedTypes/Outer.classField:I
+       5: aload_0
+       6: getfield      #1                  // Field this$0:Lpt/isel/nestedTypes/Outer;
+       9: bipush        12
+      11: putfield      #22                 // Field pt/isel/nestedTypes/Outer.instanceField:I
+      14: return
+}

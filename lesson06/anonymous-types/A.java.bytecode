@@ -1,0 +1,50 @@
+Compiled from "App.java"
+class A {
+  final IB dummy1;
+
+  final B dummy;
+
+  public A();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #7                  // class A$1
+       8: dup
+       9: aload_0
+      10: invokespecial #9                  // Method A$1."<init>":(LA;)V
+      13: putfield      #12                 // Field dummy1:LIB;
+      16: aload_0
+      17: new           #18                 // class A$2
+      20: dup
+      21: aload_0
+      22: invokespecial #20                 // Method A$2."<init>":(LA;)V
+      25: putfield      #21                 // Field dummy:LB;
+      28: return
+
+  public A(int);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #7                  // class A$1
+       8: dup
+       9: aload_0
+      10: invokespecial #9                  // Method A$1."<init>":(LA;)V
+      13: putfield      #12                 // Field dummy1:LIB;
+      16: aload_0
+      17: new           #18                 // class A$2
+      20: dup
+      21: aload_0
+      22: invokespecial #20                 // Method A$2."<init>":(LA;)V
+      25: putfield      #21                 // Field dummy:LB;
+      28: return
+
+  public B makeB();
+    Code:
+       0: new           #25                 // class A$3
+       3: dup
+       4: aload_0
+       5: invokespecial #27                 // Method A$3."<init>":(LA;)V
+       8: areturn
+}
