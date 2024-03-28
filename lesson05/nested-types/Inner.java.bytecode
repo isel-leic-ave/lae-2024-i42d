@@ -1,0 +1,13 @@
+Compiled from "App.java"
+class Outer$Inner {
+  final Outer this$0;
+
+  Outer$Inner(Outer);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #1                  // Field this$0:LOuter;
+       5: aload_0
+       6: invokespecial #7                  // Method java/lang/Object."<init>":()V
+       9: return
+}

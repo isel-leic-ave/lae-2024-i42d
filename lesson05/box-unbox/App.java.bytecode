@@ -1,0 +1,67 @@
+Compiled from "App.java"
+public class App {
+  public App();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #7                  // class java/lang/String
+       3: dup
+       4: ldc           #9                  // String I\'m a non football fan
+       6: invokespecial #11                 // Method java/lang/String."<init>":(Ljava/lang/String;)V
+       9: astore_1
+      10: aload_1
+      11: astore_2
+      12: ldc           #14                 // String ABC
+      14: astore_1
+      15: aconst_null
+      16: astore_2
+      17: aload_1
+      18: astore_3
+      19: bipush        7
+      21: istore        4
+      23: iload         4
+      25: invokestatic  #16                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      28: astore        5
+      30: aload         5
+      32: checkcast     #17                 // class java/lang/Integer
+      35: invokevirtual #22                 // Method java/lang/Integer.intValue:()I
+      38: istore        6
+      40: ldc2_w        #26                 // long 11l
+      43: lstore        7
+      45: ldc           #28                 // float 9.3f
+      47: fstore        9
+      49: ldc2_w        #29                 // double 3.4d
+      52: dstore        10
+      54: iload         4
+      56: invokestatic  #16                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      59: invokestatic  #31                 // Method foo:(Ljava/lang/Object;)V
+      62: lload         7
+      64: invokestatic  #37                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+      67: invokestatic  #31                 // Method foo:(Ljava/lang/Object;)V
+      70: fload         9
+      72: invokestatic  #42                 // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;
+      75: invokestatic  #31                 // Method foo:(Ljava/lang/Object;)V
+      78: dload         10
+      80: invokestatic  #47                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+      83: invokestatic  #31                 // Method foo:(Ljava/lang/Object;)V
+      86: return
+
+  public static void foo(java.lang.Object);
+    Code:
+       0: aload_0
+       1: astore_1
+       2: return
+
+  public static java.lang.Integer incSeven(java.lang.Integer);
+    Code:
+       0: aload_0
+       1: invokevirtual #22                 // Method java/lang/Integer.intValue:()I
+       4: bipush        7
+       6: iadd
+       7: invokestatic  #16                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      10: areturn
+}

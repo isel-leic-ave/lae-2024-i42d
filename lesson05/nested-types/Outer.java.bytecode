@@ -1,0 +1,32 @@
+Compiled from "App.java"
+class Outer {
+  Outer();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: bipush        20
+       7: putfield      #7                  // Field instanceField:I
+      10: return
+
+  void m1();
+    Code:
+       0: aload_0
+       1: bipush        21
+       3: putfield      #7                  // Field instanceField:I
+       6: bipush        11
+       8: putstatic     #13                 // Field classField:I
+      11: return
+
+  static void m2();
+    Code:
+       0: bipush        12
+       2: putstatic     #13                 // Field classField:I
+       5: return
+
+  static {};
+    Code:
+       0: bipush        10
+       2: putstatic     #13                 // Field classField:I
+       5: return
+}
