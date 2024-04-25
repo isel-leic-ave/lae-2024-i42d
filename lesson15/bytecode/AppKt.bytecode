@@ -1,0 +1,185 @@
+Classfile /Users/luisfalcao/Library/CloudStorage/OneDrive-InstitutoSuperiordeEngenhariadeLisboa/ISEL/Disciplinas/2023_2024/2023-2024VerLAE/Repositories/lae-2024-i42d-LF/lesson15/bytecode/AppKt.class
+  Last modified Apr 16, 2024; size 1196 bytes
+  SHA-256 checksum f5eae593e299fb312eec086f45d3ef45ee1238bcface409e226ab5a41dbb8b92
+  Compiled from "App.kt"
+public final class AppKt
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // AppKt
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 4, attributes: 2
+Constant pool:
+   #1 = Utf8               AppKt
+   #2 = Class              #1             // AppKt
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               modulus
+   #6 = Utf8               (FF)F
+   #7 = Utf8               java/lang/Math
+   #8 = Class              #7             // java/lang/Math
+   #9 = Utf8               sqrt
+  #10 = Utf8               (D)D
+  #11 = NameAndType        #9:#10         // sqrt:(D)D
+  #12 = Methodref          #8.#11         // java/lang/Math.sqrt:(D)D
+  #13 = Utf8               res
+  #14 = Utf8               F
+  #15 = Utf8               x
+  #16 = Utf8               y
+  #17 = Utf8               calculateNetBalance
+  #18 = Utf8               (IFFIF)F
+  #19 = Utf8               balance
+  #20 = Utf8               I
+  #21 = Utf8               tax
+  #22 = Utf8               interest
+  #23 = Utf8               income
+  #24 = Utf8               expense
+  #25 = Utf8               main
+  #26 = Utf8               ()V
+  #27 = Utf8               Student
+  #28 = Class              #27            // Student
+  #29 = Utf8               <init>
+  #30 = NameAndType        #29:#26        // "<init>":()V
+  #31 = Methodref          #28.#30        // Student."<init>":()V
+  #32 = Utf8               java/lang/System
+  #33 = Class              #32            // java/lang/System
+  #34 = Utf8               out
+  #35 = Utf8               Ljava/io/PrintStream;
+  #36 = NameAndType        #34:#35        // out:Ljava/io/PrintStream;
+  #37 = Fieldref           #33.#36        // java/lang/System.out:Ljava/io/PrintStream;
+  #38 = Utf8               java/io/PrintStream
+  #39 = Class              #38            // java/io/PrintStream
+  #40 = Utf8               println
+  #41 = Utf8               (Ljava/lang/Object;)V
+  #42 = NameAndType        #40:#41        // println:(Ljava/lang/Object;)V
+  #43 = Methodref          #39.#42        // java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #44 = Utf8               st
+  #45 = Utf8               LStudent;
+  #46 = Utf8               ([Ljava/lang/String;)V
+  #47 = NameAndType        #25:#26        // main:()V
+  #48 = Methodref          #2.#47         // AppKt.main:()V
+  #49 = Utf8               args
+  #50 = Utf8               [Ljava/lang/String;
+  #51 = Utf8               Lkotlin/Metadata;
+  #52 = Utf8               mv
+  #53 = Integer            1
+  #54 = Integer            9
+  #55 = Integer            0
+  #56 = Utf8               k
+  #57 = Integer            2
+  #58 = Utf8               xi
+  #59 = Integer            48
+  #60 = Utf8               d1
+  #61 = Utf8               \u0000\u0018\n\u0000\n\u0002\u0010\u0007\n\u0000\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0010\u0002\n\u0002\b\u0003\u001a.\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00012\u0006\u0010\u0005\u001a\u00020\u00012\u0006\u0010\u0006\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u0001\u001a\u0006\u0010\b\u001a\u00020\t\u001a\u0016\u0010\n\u001a\u00020\u00012\u0006\u0010\u000b\u001a\u00020\u00012\u0006\u0010\f\u001a\u00020\u0001
+  #62 = Utf8               d2
+  #63 = Utf8
+  #64 = Utf8               App.kt
+  #65 = Utf8               Code
+  #66 = Utf8               LineNumberTable
+  #67 = Utf8               LocalVariableTable
+  #68 = Utf8               SourceFile
+  #69 = Utf8               RuntimeVisibleAnnotations
+{
+  public static final float modulus(float, float);
+    descriptor: (FF)F
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=3, locals=3, args_size=2
+         0: fload_0
+         1: fload_0
+         2: fmul
+         3: fload_1
+         4: fload_1
+         5: fmul
+         6: fadd
+         7: f2d
+         8: invokestatic  #12                 // Method java/lang/Math.sqrt:(D)D
+        11: d2f
+        12: fstore_2
+        13: fload_2
+        14: freturn
+      LineNumberTable:
+        line 19: 0
+        line 19: 12
+        line 20: 13
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           13       2     2   res   F
+            0      15     0     x   F
+            0      15     1     y   F
+
+  public static final float calculateNetBalance(int, float, float, int, float);
+    descriptor: (IFFIF)F
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=3, locals=5, args_size=5
+         0: iload_0
+         1: i2f
+         2: iload_0
+         3: i2f
+         4: fload_1
+         5: fmul
+         6: fsub
+         7: iload_0
+         8: i2f
+         9: fload_2
+        10: fmul
+        11: fadd
+        12: iload_3
+        13: i2f
+        14: fadd
+        15: fload         4
+        17: fsub
+        18: freturn
+      LineNumberTable:
+        line 30: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      19     0 balance   I
+            0      19     1   tax   F
+            0      19     2 interest   F
+            0      19     3 income   I
+            0      19     4 expense   F
+
+  public static final void main();
+    descriptor: ()V
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=0
+         0: new           #28                 // class Student
+         3: dup
+         4: invokespecial #31                 // Method Student."<init>":()V
+         7: astore_0
+         8: getstatic     #37                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        11: aload_0
+        12: invokevirtual #43                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        15: return
+      LineNumberTable:
+        line 45: 0
+        line 46: 8
+        line 49: 15
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            8       8     0    st   LStudent;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x1009) ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #48                 // Method main:()V
+         3: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  args   [Ljava/lang/String;
+}
+SourceFile: "App.kt"
+RuntimeVisibleAnnotations:
+  0: #51(#52=[I#53,I#54,I#55],#56=I#57,#58=I#59,#60=[s#61],#62=[s#17,s#63,s#19,s#63,s#21,s#22,s#23,s#24,s#25,s#63,s#5,s#15,s#16])
+    kotlin.Metadata(
+      mv=[1,9,0]
+      k=2
+      xi=48
+      d1=["\u0000\u0018\n\u0000\n\u0002\u0010\u0007\n\u0000\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0010\u0002\n\u0002\b\u0003\u001a.\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00012\u0006\u0010\u0005\u001a\u00020\u00012\u0006\u0010\u0006\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u0001\u001a\u0006\u0010\b\u001a\u00020\t\u001a\u0016\u0010\n\u001a\u00020\u00012\u0006\u0010\u000b\u001a\u00020\u00012\u0006\u0010\f\u001a\u00020\u0001"]
+      d2=["calculateNetBalance","","balance","","tax","interest","income","expense","main","","modulus","x","y"]
+    )
