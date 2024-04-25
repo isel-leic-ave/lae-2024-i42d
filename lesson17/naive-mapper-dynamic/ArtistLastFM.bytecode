@@ -1,0 +1,380 @@
+Classfile /Users/luisfalcao/Library/CloudStorage/OneDrive-InstitutoSuperiordeEngenhariadeLisboa/ISEL/Disciplinas/2023_2024/2023-2024VerLAE/Repositories/lae-2024-i42d-LF/lesson17/naive-mapper-dynamic/build/classes/kotlin/test/pt/isel/ArtistLastFm.class
+  Last modified Apr 23, 2024; size 2411 bytes
+  SHA-256 checksum 12c64690913995396257bca9992128b07f1976d4804ea3b4da9f7ebf8beb7fcb
+  Compiled from "ArtistLastFm.kt"
+public final class pt.isel.ArtistLastFm
+  minor version: 0
+  major version: 65
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // pt/isel/ArtistLastFm
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 2, methods: 11, attributes: 2
+Constant pool:
+   #1 = Utf8               pt/isel/ArtistLastFm
+   #2 = Class              #1             // pt/isel/ArtistLastFm
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+   #7 = Utf8               name
+   #8 = Utf8               origin
+   #9 = Utf8               Lorg/jetbrains/annotations/NotNull;
+  #10 = String             #7             // name
+  #11 = Utf8               kotlin/jvm/internal/Intrinsics
+  #12 = Class              #11            // kotlin/jvm/internal/Intrinsics
+  #13 = Utf8               checkNotNullParameter
+  #14 = Utf8               (Ljava/lang/Object;Ljava/lang/String;)V
+  #15 = NameAndType        #13:#14        // checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+  #16 = Methodref          #12.#15        // kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+  #17 = String             #8             // origin
+  #18 = Utf8               ()V
+  #19 = NameAndType        #5:#18         // "<init>":()V
+  #20 = Methodref          #4.#19         // java/lang/Object."<init>":()V
+  #21 = Utf8               Ljava/lang/String;
+  #22 = NameAndType        #7:#21         // name:Ljava/lang/String;
+  #23 = Fieldref           #2.#22         // pt/isel/ArtistLastFm.name:Ljava/lang/String;
+  #24 = NameAndType        #8:#21         // origin:Ljava/lang/String;
+  #25 = Fieldref           #2.#24         // pt/isel/ArtistLastFm.origin:Ljava/lang/String;
+  #26 = Utf8               this
+  #27 = Utf8               Lpt/isel/ArtistLastFm;
+  #28 = Utf8               (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  #29 = Utf8
+  #30 = String             #29            //
+  #31 = Utf8               Portugal
+  #32 = String             #31            // Portugal
+  #33 = NameAndType        #5:#6          // "<init>":(Ljava/lang/String;Ljava/lang/String;)V
+  #34 = Methodref          #2.#33         // pt/isel/ArtistLastFm."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+  #35 = Utf8               getName
+  #36 = Utf8               ()Ljava/lang/String;
+  #37 = Utf8               setName
+  #38 = Utf8               (Ljava/lang/String;)V
+  #39 = Utf8               <set-?>
+  #40 = String             #39            // <set-?>
+  #41 = Utf8               getOrigin
+  #42 = Utf8               setOrigin
+  #43 = Utf8               xpto
+  #44 = Utf8               (Ljava/lang/String;I)V
+  #45 = Utf8               a
+  #46 = Utf8               x
+  #47 = Utf8               Lkotlin/jvm/JvmOverloads;
+  #48 = String             #45            // a
+  #49 = Utf8               I
+  #50 = Utf8               xpto$default
+  #51 = Utf8               (Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+  #52 = Utf8               SLB
+  #53 = String             #52            // SLB
+  #54 = NameAndType        #43:#44        // xpto:(Ljava/lang/String;I)V
+  #55 = Methodref          #2.#54         // pt/isel/ArtistLastFm.xpto:(Ljava/lang/String;I)V
+  #56 = NameAndType        #50:#51        // xpto$default:(Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+  #57 = Methodref          #2.#56         // pt/isel/ArtistLastFm.xpto$default:(Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+  #58 = NameAndType        #5:#28         // "<init>":(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  #59 = Methodref          #2.#58         // pt/isel/ArtistLastFm."<init>":(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  #60 = Utf8               Lkotlin/Metadata;
+  #61 = Utf8               mv
+  #62 = Integer            1
+  #63 = Integer            9
+  #64 = Integer            0
+  #65 = Utf8               k
+  #66 = Utf8               xi
+  #67 = Integer            48
+  #68 = Utf8               d1
+  #69 = Utf8               \u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\t\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0000\u0018\u00002\u00020\u0001B\u0019\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003¢\u0006\u0002\u0010\u0005J\u001c\u0010\f\u001a\u00020\r2\b\b\u0002\u0010\u000e\u001a\u00020\u00032\b\b\u0002\u0010\u000f\u001a\u00020\u0010H\u0007R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\u0004\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u0007\"\u0004\b\u000b\u0010\t¨\u0006\u0011
+  #70 = Utf8               d2
+  #71 = Utf8               naive-mapper-dynamic_test
+  #72 = Utf8               ArtistLastFm.kt
+  #73 = Utf8               RuntimeInvisibleAnnotations
+  #74 = Utf8               Code
+  #75 = Utf8               LineNumberTable
+  #76 = Utf8               LocalVariableTable
+  #77 = Utf8               RuntimeInvisibleParameterAnnotations
+  #78 = Utf8               MethodParameters
+  #79 = Utf8               StackMapTable
+  #80 = Utf8               SourceFile
+  #81 = Utf8               RuntimeVisibleAnnotations
+{
+  public pt.isel.ArtistLastFm(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_1
+         1: ldc           #10                 // String name
+         3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+         6: aload_2
+         7: ldc           #17                 // String origin
+         9: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+        12: aload_0
+        13: invokespecial #20                 // Method java/lang/Object."<init>":()V
+        16: aload_0
+        17: aload_1
+        18: putfield      #23                 // Field name:Ljava/lang/String;
+        21: aload_0
+        22: aload_2
+        23: putfield      #25                 // Field origin:Ljava/lang/String;
+        26: return
+      LineNumberTable:
+        line 3: 12
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      27     0  this   Lpt/isel/ArtistLastFm;
+            0      27     1  name   Ljava/lang/String;
+            0      27     2 origin   Ljava/lang/String;
+    RuntimeInvisibleParameterAnnotations:
+      parameter 0:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+      parameter 1:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+    MethodParameters:
+      Name                           Flags
+      name
+      origin
+
+  public pt.isel.ArtistLastFm(java.lang.String, java.lang.String, int, kotlin.jvm.internal.DefaultConstructorMarker);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    flags: (0x1001) ACC_PUBLIC, ACC_SYNTHETIC
+    Code:
+      stack=3, locals=5, args_size=5
+         0: iload_3
+         1: iconst_1
+         2: iand
+         3: ifeq          9
+         6: ldc           #30                 // String
+         8: astore_1
+         9: iload_3
+        10: iconst_2
+        11: iand
+        12: ifeq          18
+        15: ldc           #32                 // String Portugal
+        17: astore_2
+        18: aload_0
+        19: aload_1
+        20: aload_2
+        21: invokespecial #34                 // Method "<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        24: return
+      StackMapTable: number_of_entries = 2
+        frame_type = 9 /* same */
+        frame_type = 8 /* same */
+      LineNumberTable:
+        line 3: 0
+        line 7: 24
+
+  public final java.lang.String getName();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #23                 // Field name:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lpt/isel/ArtistLastFm;
+    RuntimeInvisibleAnnotations:
+      0: #9()
+        org.jetbrains.annotations.NotNull
+
+  public final void setName(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ldc           #40                 // String <set-?>
+         3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+         6: aload_0
+         7: aload_1
+         8: putfield      #23                 // Field name:Ljava/lang/String;
+        11: return
+      LineNumberTable:
+        line 3: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      12     0  this   Lpt/isel/ArtistLastFm;
+            0      12     1 <set-?>   Ljava/lang/String;
+    RuntimeInvisibleParameterAnnotations:
+      parameter 0:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+    MethodParameters:
+      Name                           Flags
+      <set-?>
+
+  public final java.lang.String getOrigin();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #25                 // Field origin:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lpt/isel/ArtistLastFm;
+    RuntimeInvisibleAnnotations:
+      0: #9()
+        org.jetbrains.annotations.NotNull
+
+  public final void setOrigin(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ldc           #40                 // String <set-?>
+         3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+         6: aload_0
+         7: aload_1
+         8: putfield      #25                 // Field origin:Ljava/lang/String;
+        11: return
+      LineNumberTable:
+        line 3: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      12     0  this   Lpt/isel/ArtistLastFm;
+            0      12     1 <set-?>   Ljava/lang/String;
+    RuntimeInvisibleParameterAnnotations:
+      parameter 0:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+    MethodParameters:
+      Name                           Flags
+      <set-?>
+
+  public final void xpto(java.lang.String, int);
+    descriptor: (Ljava/lang/String;I)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_1
+         1: ldc           #48                 // String a
+         3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+         6: return
+      LineNumberTable:
+        line 6: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  this   Lpt/isel/ArtistLastFm;
+            0       7     1     a   Ljava/lang/String;
+            0       7     2     x   I
+    RuntimeInvisibleAnnotations:
+      0: #47()
+        kotlin.jvm.JvmOverloads
+    RuntimeInvisibleParameterAnnotations:
+      parameter 0:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+      parameter 1:
+    MethodParameters:
+      Name                           Flags
+      a
+      x
+
+  public static void xpto$default(pt.isel.ArtistLastFm, java.lang.String, int, int, java.lang.Object);
+    descriptor: (Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+    flags: (0x1009) ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=3, locals=5, args_size=5
+         0: iload_3
+         1: iconst_1
+         2: iand
+         3: ifeq          9
+         6: ldc           #53                 // String SLB
+         8: astore_1
+         9: iload_3
+        10: iconst_2
+        11: iand
+        12: ifeq          18
+        15: bipush        10
+        17: istore_2
+        18: aload_0
+        19: aload_1
+        20: iload_2
+        21: invokevirtual #55                 // Method xpto:(Ljava/lang/String;I)V
+        24: return
+      StackMapTable: number_of_entries = 2
+        frame_type = 9 /* same */
+        frame_type = 8 /* same */
+      LineNumberTable:
+        line 5: 0
+
+  public final void xpto(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=5, locals=2, args_size=2
+         0: aload_1
+         1: ldc           #48                 // String a
+         3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+         6: aload_0
+         7: aload_1
+         8: iconst_0
+         9: iconst_2
+        10: aconst_null
+        11: invokestatic  #57                 // Method xpto$default:(Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+        14: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      15     0  this   Lpt/isel/ArtistLastFm;
+            0      15     1     a   Ljava/lang/String;
+    RuntimeInvisibleAnnotations:
+      0: #47()
+        kotlin.jvm.JvmOverloads
+    RuntimeInvisibleParameterAnnotations:
+      parameter 0:
+        0: #9()
+          org.jetbrains.annotations.NotNull
+    MethodParameters:
+      Name                           Flags
+      a
+
+  public final void xpto();
+    descriptor: ()V
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=5, locals=1, args_size=1
+         0: aload_0
+         1: aconst_null
+         2: iconst_0
+         3: iconst_3
+         4: aconst_null
+         5: invokestatic  #57                 // Method xpto$default:(Lpt/isel/ArtistLastFm;Ljava/lang/String;IILjava/lang/Object;)V
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lpt/isel/ArtistLastFm;
+    RuntimeInvisibleAnnotations:
+      0: #47()
+        kotlin.jvm.JvmOverloads
+
+  public pt.isel.ArtistLastFm();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=5, locals=1, args_size=1
+         0: aload_0
+         1: aconst_null
+         2: aconst_null
+         3: iconst_3
+         4: aconst_null
+         5: invokespecial #59                 // Method "<init>":(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lpt/isel/ArtistLastFm;
+}
+SourceFile: "ArtistLastFm.kt"
+RuntimeVisibleAnnotations:
+  0: #60(#61=[I#62,I#63,I#64],#65=I#62,#66=I#67,#68=[s#69],#70=[s#27,s#29,s#7,s#29,s#8,s#6,s#35,s#36,s#37,s#38,s#41,s#42,s#43,s#29,s#45,s#46,s#29,s#71])
+    kotlin.Metadata(
+      mv=[1,9,0]
+      k=1
+      xi=48
+      d1=["\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\t\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0000\u0018\u00002\u00020\u0001B\u0019\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003¢\u0006\u0002\u0010\u0005J\u001c\u0010\f\u001a\u00020\r2\b\b\u0002\u0010\u000e\u001a\u00020\u00032\b\b\u0002\u0010\u000f\u001a\u00020\u0010H\u0007R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\u0004\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u0007\"\u0004\b\u000b\u0010\t¨\u0006\u0011"]
+      d2=["Lpt/isel/ArtistLastFm;","","name","","origin","(Ljava/lang/String;Ljava/lang/String;)V","getName","()Ljava/lang/String;","setName","(Ljava/lang/String;)V","getOrigin","setOrigin","xpto","","a","x","","naive-mapper-dynamic_test"]
+    )
